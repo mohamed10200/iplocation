@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> Mohamed Khaled</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css">
+    	<link rel="stylesheet" href="css4.css">
+</head>
+<body onload="getLocation()">
+    
+    
+    <p id="demo"></p>
+    <script>
+var x = document.getElementById("demo");
+function getLocation() {
+  if (navigator.geolocation) {
+    navigator.geolocation.getCurrentPosition(showPosition);
+  } else {
+    x.innerHTML = "Geolocation is not supported by this browser.";
+  }
+}
+
+function showPosition(position) {
+
+const xhttp = XMLHttpRequest();
+xhttp.open("GET", "ip.php?lat=" + position.coords.latitude + "&long" + position.coords.latitude);
+xhttp.send();
+
+ }
+</script>
+
+
+   <header>
+   <a href="#" class="logo">Mohamed</a>
+                                                                               <nav class="navigation">
+                        <a href="#services">Services</a>
+                        <a href="#projects">Projects</a>
+                        <a href="#contact">Contact</a> 
+                        <a href="file:///storage/emulated/0/Android/data/com.teejay.trebedit/files/TrebEdit%20user%20files/websitemohamaed/login/index.html"> Login</a>                                                      </nav>
+       
+   </header>
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+
+
+
+
+<section class="main">
+    
+<div>
+<h2>Hallo, I'm Mohamed<br><span> Web Design</span></h2>
+<h3>Build perfect websites</h3>
+<a href="#projects" class="main-btn">View my work</a>    
+
+<div class="social-icons">
+    <a href="https://www.facebook.com/profile.php?id=100033257303692"><i class="fa-brands fa-facebook"></i></a>
+    <a href="https://youtube.com/c/Mohmaedkhaled"><i class="fa-brands fa-youtube"></i></a>
+    <a href="https://mohmaedkhaled.blogspot.com/?m=1"><i class="fa-brands fa-blogger"></i></a>   
+    </div> 
+</div>
+    
+</section>
+
+
+<section class="cards" id="services">
+<h2 class="title">Services</h2>
+<div class="content">
+<div class="card">
+<div class="icon">
+<i class="fa-solid fa-newspaper"></i>
+</div>
+<div class="info">
+    <h3>Newspaper</h3>    
+<p>I also write news about everything health, food, diseases or military information </p>
+
+</div>   
+</div>
+ 
+ 
+ 
+ 
+<div class="card">
+<div class="icon">
+<i class="fa-solid fa-camera"></i>
+</div>
+<div class="info">
+    <h3></h3>    
+<p>She took some beautiful photos and you can see them in the link below  </p>
+</div>
+</div> 
+
+
+<div class="card">
+<div class="icon">
+<i class="fa-solid fa-blog"></i>
+</div>
+<div class="info">
+    <h3>Newspaper</h3>    
+<p> I also write articles on news, food, information, education and health  </p>
+</div>  
+</div> 
+
+ 
+</div>
+    
+   
+    
+    
+    
+    
+    
+</section>
+
+
+
+   <section class="projects" id="projects">
+       <h2 class="title">Projects</h2>
+       <div class="content">
+           <div class="project-card">
+       <div class="project-image">
+           
+           <img src="file:///storage/emulated/0/Android/data/com.teejay.trebedit/files/TrebEdit user files/websitemohamaed/1625164966956866-0.jpg">
+           </div>
+           <div class="project-info">
+               <p class="project-category">The largest missile destroyer in the world </p>
+               <strong class="project-title">
+                   <span>The largest...</span>
+                   <a href="https://mohmaedkhaled.blogspot.com/2021/07/type55.html?m=1" class="more-details">More detalis</a>
+                   
+               </strong>
+           </div>
+           
+           
+           
+       
+       </div>
+       
+       <div class="project-card">
+       <div class="project-image">
+           
+           <img src="file:///storage/emulated/0/Android/data/com.teejay.trebedit/files/TrebEdit user files/websitemohamaed/1625344530101871-0.jpg">
+           </div>
+           <div class="project-info">
+               <p class="project-category">The most important innovations in the Egyptian Air Force </p>
+               <strong class="project-title">
+                   <span>The most important...</span>
+                   <a href="https://mohmaedkhaled.blogspot.com/2021/07/blog-post.html?m=1" class="more-details">More detalis</a>
+                   
+               </strong>
+           </div>
+           
+           
+           
+       
+       </div>
+       <div class="project-card">
+       <div class="project-image">
+           
+           <img src="file:///storage/emulated/0/Android/data/com.teejay.trebedit/files/TrebEdit user files/websitemohamaed/1625066742918153-0.jpg">
+           </div>
+           <div class="project-info">
+               <p class="project-category">Apple followed the warnings due to the leaks </p>
+               <strong class="project-title">
+                   <span>Apple followed the...</span>
+                   <a href="https://mohmaedkhaled.blogspot.com/2021/06/apple.html?m=1" class="more-details">More detalis</a>
+                   
+               </strong>
+           </div>
+           
+           
+           
+       
+       </div>
+       </div>
+   </section> 
+   
+   
+   <section class="cards contact" id="contact">
+       <h2 class="title">Let's work together</h2>
+  <div class="content">
+<div class="card">
+<div class="icon">
+<i class="fa-solid fa-phone"></i>
+</div>
+<div class="info">
+    <h3>Phone</h3>    
+<p>+201120959450 </p>
+
+</div>   
+</div>
+ 
+ 
+ 
+ 
+<div class="card">
+<div class="icon">
+<i class="fa-solid fa-envelope"></i>
+</div>
+<div class="info">
+    <h3>Email</h3>    
+<p> mohmaed@gmail.com</p>
+</div>
+</div> 
+
+   </section>
+   
+   <footer class="footer">
+    <p class="footer-title">Copyrights @<span>MohmaedKhaled236</span></p>
+    <div class="social-icons">
+    <a href="https://www.facebook.com/profile.php?id=100033257303692"><i class="fa-brands fa-facebook"></i></a>
+    <a href="https://youtube.com/c/Mohmaedkhaled"><i class="fa-brands fa-youtube"></i></a>
+    <a href="https://mohmaedkhaled.blogspot.com/?m=1"><i class="fa-brands fa-blogger"></i></a>   
+    </div> 
+   </footer>
+</body>
+</html>
